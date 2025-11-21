@@ -1,0 +1,231 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://public.websites.umich.edu/~mejn/netdata/
+Subject: Network data
+Date: Fri, 21 Nov 2025 12:22:20 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Ahf7jlm45OGDvHSudgoJ3PcAPlGH39RDwp3bUizjGf----"
+
+
+------MultipartBoundary--Ahf7jlm45OGDvHSudgoJ3PcAPlGH39RDwp3bUizjGf----
+Content-Type: text/html
+Content-ID: <frame-23AB5AE5DD5E4EAF686A7FCC74F3B4E5@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://public.websites.umich.edu/~mejn/netdata/
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-fde0c45a-e8fa-4172-8e35-57c7d019cc0f@mhtml.blink" />
+<title>Network data</title>
+
+
+<link rel="shortcut icon" href="http://www-personal.umich.edu/~mejn/umicon.ico" type="image/x-icon">
+</head>
+
+<body><h1>Network data</h1>
+<p>
+</p><hr>
+<p>
+
+This page contains links to some network data sets I've compiled over the
+years.  All of these are free for scientific use to the best of my
+knowledge, meaning that the original authors have already made the data
+freely available, or that I have consulted the authors and received
+permission to the post the data here, or that the data are mine.  If you
+make use of any of these data, please cite the original sources.
+</p><p>
+
+The data sets are in GML format.  For a description of GML see <a href="http://www.infosun.fmi.uni-passau.de/Graphlet/GML/gml-tr.html">here</a>.
+GML can be read by many network analysis packages, including <a href="http://gephi.org/">Gephi</a> and <a href="http://www.cytoscape.org/">Cytoscape</a>.  I've written a simple
+parser in C that will read the files into a data structure.  It's available
+<a href="https://public.websites.umich.edu/~mejn/netdata/readgml.zip">here</a>.  There are many features of GML not
+supported by this parser, but it will read the files in this repository
+just fine.  There is a Python parser for GML available as part of the
+NetworkX package <a href="http://networkx.lanl.gov/reference/readwrite.gml.html">here</a> and
+another in the <a href="http://igraph.sourceforge.net/">igraph package</a>,
+which can be used from C, Python, or R.  If you know of or develop other
+software (Java, C++, Perl, R, Matlab, etc.) that reads GML, let me know.
+</p><p>
+
+</p><h3>Data sets</h3>
+<ul>
+
+<li><a href="https://public.websites.umich.edu/~mejn/netdata/karate.zip">Zachary's karate club</a>: social network of
+friendships between 34 members of a karate club at a US university in the
+1970s.  Please cite W. W. Zachary, An information flow model for conflict
+and fission in small groups, <i>Journal of Anthropological Research</i>
+<b>33</b>, 452-473 (1977).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/lesmis.zip">Les Miserables</a>: coappearance network of
+characters in the novel <i>Les Miserables</i>.  Please cite D. E. Knuth,
+<i>The Stanford GraphBase: A Platform for Combinatorial Computing</i>,
+Addison-Wesley, Reading, MA (1993).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/adjnoun.zip">Word adjacencies</a>: adjacency network of common
+adjectives and nouns in the novel <i>David Copperfield</i> by Charles
+Dickens.  Please cite M. E. J. Newman, <i>Phys. Rev. E</i> <b>74</b>,
+036104 (2006).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/football.zip">American College football</a>: network of
+American football games between Division IA colleges during regular season
+Fall 2000.  Please cite M. Girvan and M. E. J. Newman,
+<i>Proc. Natl. Acad. Sci. USA</i> <b>99</b>, 7821-7826 (2002).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/dolphins.zip">Dolphin social network</a>: an undirected social
+network of frequent associations between 62 dolphins in a community living
+off Doubtful Sound, New Zealand.  Please cite D. Lusseau, K. Schneider,
+O. J. Boisseau, P. Haase, E. Slooten, and S. M. Dawson, <i>Behavioral
+Ecology and Sociobiology</i> <b>54</b>, 396-405 (2003).  Thanks to David
+Lusseau for permission to post these data on this web site.
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/polblogs.zip">Political blogs</a>: A directed network of
+hyperlinks between weblogs on US politics, recorded in 2005 by Adamic and
+Glance.  Please cite L. A. Adamic and N. Glance, "The political blogosphere
+and the 2004 US Election", in Proceedings of the WWW-2005 Workshop on the
+Weblogging Ecosystem (2005).  Thanks to Lada Adamic for permission to post
+these data on this web site.
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/polbooks.zip">Books about US politics</a>: A network of books
+about US politics published around the time of the 2004 presidential
+election and sold by the online bookseller Amazon.com.  Edges between books
+represent frequent copurchasing of books by the same buyers.  The network
+was compiled by V. Krebs and is unpublished, but can found on Krebs' <a href="http://www.orgnet.com/">web site</a>.  Thanks to Valdis Krebs for
+permission to post these data on this web site.
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/celegansneural.zip">Neural network</a>: A directed, weighted
+network representing the neural network of C. Elegans.  Data compiled by
+D. Watts and S. Strogatz and made available on the web <a href="http://cdg.columbia.edu/cdg/datasets">here</a>.  Please cite
+D. J. Watts and S. H. Strogatz, <i>Nature</i> <b>393</b>, 440-442 (1998).
+Original experimental data taken from J. G. White, E. Southgate,
+J. N. Thompson, and S. Brenner, <i>Phil. Trans. R. Soc. London</i>
+<b>314</b>, 1-340 (1986).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/power.zip">Power grid</a>: An undirected, unweighted network
+representing the topology of the Western States Power Grid of the United
+States.  Data compiled by D. Watts and S. Strogatz and made available on
+the web <a href="http://cdg.columbia.edu/cdg/datasets">here</a>.  Please
+cite D. J. Watts and S. H. Strogatz, <i>Nature</i> <b>393</b>, 440-442
+(1998).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/cond-mat.zip">Condensed matter collaborations 1999</a>:
+weighted network of coauthorships between scientists posting preprints on
+the <a href="http://arxiv.org/archive/cond-mat">Condensed Matter E-Print
+Archive</a> between Jan 1, 1995 and December 31, 1999.  Please cite
+M. E. J. Newman, The structure of scientific collaboration networks,
+<i>Proc. Natl. Acad. Sci. USA</i> <b>98</b>, 404-409 (2001).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/cond-mat-2003.zip">Condensed matter collaborations 2003</a>:
+updated network of coauthorships between scientists posting preprints on
+the <a href="http://arxiv.org/archive/cond-mat">Condensed Matter E-Print
+Archive</a>.  This version includes all preprints posted between Jan 1,
+1995 and June 30, 2003.  The largest component of this network, which
+contains 27519 scientists, has been used by several authors as a test-bed
+for community-finding algorithms for large networks; see for example
+J. Duch and A. Arenas, <i>Phys. Rev. E</i> <b>72</b>, 027104 (2005).  These
+data can be cited as M. E. J. Newman, <i>Proc. Natl. Acad. Sci. USA</i>
+<b>98</b>, 404-409 (2001).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/cond-mat-2005.zip">Condensed matter collaborations 2005</a>:
+updated network of coauthorships between scientists posting preprints on
+the <a href="http://arxiv.org/archive/cond-mat">Condensed Matter E-Print
+Archive</a>.  This version includes all preprints posted between Jan 1,
+1995 and March 31, 2005.  Please cite M. E. J. Newman,
+<i>Proc. Natl. Acad. Sci. USA</i> <b>98</b>, 404-409 (2001).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/astro-ph.zip">Astrophysics collaborations</a>: weighted
+network of coauthorships between scientists posting preprints on the <a href="http://arxiv.org/archive/astro-ph">Astrophysics E-Print Archive</a>
+between Jan 1, 1995 and December 31, 1999.  Please cite M. E. J. Newman,
+<i>Proc. Natl. Acad. Sci. USA</i> <b>98</b>, 404-409 (2001).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/hep-th.zip">High-energy theory collaborations</a>: weighted
+network of coauthorships between scientists posting preprints on the <a href="http://arxiv.org/archive/hep-th">High-Energy Theory E-Print
+Archive</a> between Jan 1, 1995 and December 31, 1999.  Please cite
+M. E. J. Newman, <i>Proc. Natl. Acad. Sci. USA</i> <b>98</b>, 404-409
+(2001).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/netscience.zip">Coauthorships in network science</a>:
+coauthorship network of scientists working on network theory and
+experiment, as compiled by M. Newman in May 2006.  A figure depicting the
+largest component of this network can be found <a href="http://www-personal.umich.edu/~mejn/centrality/">here</a>.  These
+data can be cited as M. E. J. Newman, <i>Phys. Rev. E</i> <b>74</b>, 036104
+(2006).
+
+</li><li><a href="https://public.websites.umich.edu/~mejn/netdata/as-22july06.zip">Internet</a>: a symmetrized snapshot of the
+structure of the Internet at the level of autonomous systems, reconstructed
+from BGP tables posted by the <a href="http://routeviews.org/">University
+of Oregon Route Views Project</a>.  This snapshot was created by Mark
+Newman from data for July 22, 2006 and is not previously published.
+
+</li></ul>
+<p>
+
+</p><h3>Other sources of network data</h3>
+
+There are a number of other pages on the web from which you can download
+network data.  Here are a few that I am aware of:
+<ul>
+
+<li><a href="http://vlado.fmf.uni-lj.si/pub/networks/data/UciNet/UciData.htm">UCINet
+data sets</a>: Social network data sets released with the UCINet software
+by Steve Borgatti <i>et al.</i>
+
+</li><li><a href="http://vlado.fmf.uni-lj.si/pub/networks/pajek/data/gphs.htm">Pajek
+data sets</a>: Example data sets released with the Pajek software by
+Vladimir Batagelj and Andrej Mrvar.
+
+</li><li><a href="http://iv.slis.indiana.edu/db/index.html">Indiana University
+data sets</a>: A set of very large data sets, including some non-network
+data sets, compiled by the School of Library and Information Science at
+Indiana University.  Network data sets include the NBER data set of US
+patent citations and a data set of links between articles in the on-line
+encyclopedia Wikipedia.
+
+</li><li><a href="http://cdg.columbia.edu/cdg/datasets">Duncan Watts' data
+sets</a>: Data compiled by Prof. Duncan Watts and collaborators at Columbia
+University, including data on the structure of the Western States Power
+Grid and the neural network of the worm <i>C. Elegans</i>.
+
+</li><li><a href="http://www.nd.edu/~networks/resources.htm">Laszlo Barabasi's
+data sets</a>: Data compiled by Prof. Albert-Laszlo Barabasi and
+collaborators at the University of Notre Dame, including web data and
+biochemical networks.
+
+</li><li><a href="http://deim.urv.cat/~aarenas/data/welcome.htm">Alex
+Arenas's data sets</a>: Data compiled by Prof. Alexandre Arenas and
+collaborators at Universidad Rovira i Virgili, including metabolic network
+data and the network from their study of the collaboration patterns of jazz
+musicians.
+
+</li><li><a href="http://snap.stanford.edu/data/">Stanford Large
+Network Dataset Collection</a>: A substantial collection of data sets
+describing very large networks, including social networks, communications
+networks, and transportation networks.
+
+</li></ul>
+
+<hr>
+<p>
+
+Last modified: April 19, 2013
+
+<!-- Start of StatCounter Code -->
+
+
+
+<!-- End of StatCounter Code -->
+
+</p><address>
+<a href="http://www-personal.umich.edu/~mejn/">Mark Newman</a>
+</address>
+
+
+
+</body></html>
+------MultipartBoundary--Ahf7jlm45OGDvHSudgoJ3PcAPlGH39RDwp3bUizjGf----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-fde0c45a-e8fa-4172-8e35-57c7d019cc0f@mhtml.blink
+
+@charset "utf-8";
+
+body { color: rgb(0, 0, 0); background: rgb(224, 224, 224); margin: 5%; }
+------MultipartBoundary--Ahf7jlm45OGDvHSudgoJ3PcAPlGH39RDwp3bUizjGf------
